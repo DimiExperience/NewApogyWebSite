@@ -1,1 +1,5 @@
 /* Add here all your css styles (customizations) */
+.background-grey {
+    background-color: #f4f4f4 !important;
+    width: 100%;
+}
