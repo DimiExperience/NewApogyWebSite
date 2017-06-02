@@ -46,7 +46,8 @@ namespace NewApogyWebSite
                 "~/Content/assets/plugins/animated-headline/css/animated-headline.css",
                 "~/Content/assets/css/theme-colors/blue.css",
                 "~/Content/assets/css/theme-skins/dark.css",
-                "~/Content/assets/css/custom.css"));
+                "~/Content/assets/css/custom.css",
+                "~/Content/assets/css/blocks.css"));
         }
     }
 }
