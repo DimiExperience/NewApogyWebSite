@@ -522,6 +522,7 @@
     <Content Include="Content\assets\img\bg\7.jpg" />
     <Content Include="Content\assets\img\bg\8.jpg" />
     <Content Include="Content\assets\img\bg\9.jpg" />
+    <Content Include="Content\assets\img\bg\home-image-hflip.jpg" />
     <Content Include="Content\assets\img\bg\img1.jpg" />
     <Content Include="Content\assets\img\bg\img10.jpg" />
     <Content Include="Content\assets\img\bg\img11.jpg" />
