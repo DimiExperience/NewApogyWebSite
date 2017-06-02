@@ -8,7 +8,7 @@ namespace NewApogyWebSite
         // For more information on bundling, visit https://go.microsoft.com/fwlink/?LinkId=301862
         public static void RegisterBundles(BundleCollection bundles)
         {
-            bundles.Add(new ScriptBundle("~/bundles/jquery").Include(
+            bundles.Add(new ScriptBundle("~/jquery/bundle").Include(
                 "~/Content/assets/plugins/jquery/jquery.js",
                 "~/Content/assets/plugins/jquery/jquery-migrate.js"));
 
@@ -17,7 +17,7 @@ namespace NewApogyWebSite
             bundles.Add(new ScriptBundle("~/bundles/modernizr").Include(
                 "~/Scripts/modernizr-*"));
 
-            bundles.Add(new ScriptBundle("~/bundles/bootstrap").Include(
+            bundles.Add(new ScriptBundle("~/javascript/bundle").Include(
                 "~/Content/assets/plugins/bootstrap/js/bootstrap.min.js",
                 "~/Content/assets/plugins/back-to-top.js",
                 "~/Content/assets/plugins/smoothScroll.js",
@@ -33,7 +33,7 @@ namespace NewApogyWebSite
                 "~/Content/assets/js/plugins/style-switcher.js",
                 "~/Content/assets/js/plugins/cube-portfolio/cube-portfolio-lightbox.js"));
 
-            bundles.Add(new StyleBundle("~/Content/css").Include(
+            bundles.Add(new StyleBundle("~/stylesheets/bundle").Include(
                 "~/Content/assets/plugins/bootstrap/css/bootstrap.min.css",
                 "~/Content/assets/css/style.css",
                 "~/Content/assets/css/headers/header-v6.css",

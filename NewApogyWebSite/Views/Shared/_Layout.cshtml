@@ -8,8 +8,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width" />
     <title>@ViewBag.Title</title>
-    @Styles.Render("~/Content/css")
-    @Scripts.Render("~/bundles/modernizr")
+    @Styles.Render("~/stylesheets/bundle")
 
     <!-- Meta -->
     <meta charset="utf-8">
@@ -252,8 +251,8 @@
         <script src="~/Content/assets/plugins/html5shiv.js"></script>
         <script src="~/Content/assets/plugins/placeholder-IE-fixes.js"></script>
     <![endif]-->
-        @Scripts.Render("~/bundles/jquery")
-        @Scripts.Render("~/bundles/bootstrap")
-        @RenderSection("scripts", required: false)
+    @Scripts.Render("~/jquery/bundle")
+    @Scripts.Render("~/javascript/bundle")
+    @RenderSection("PageScripts", required: false)
     </body>
 </html>
