@@ -157,7 +157,7 @@
 	transition:box-shadow 0.2s ease-in-out;
 }
 .pricing-zoom .pricing-head h4 {
-	background: url("../../img/breadcrumbs.png")
+	background: url("url(/Content/assets/img/breadcrumbs.png")
 	repeat scroll 0 0 rgba(0, 0, 0, 0) !important;
 }
 .pricing-zoom .price-active .pricing-head h4,

@@ -12,7 +12,7 @@ html:after {
 	bottom: 0;
 	left: 0;
 	right: 0;
-	background: url(../../img/coming-soon/black-ipad.png) no-repeat 120% 120%;
+	background: url(/Content/assets/img/coming-soon/black-ipad.png) no-repeat 120% 120%;
 	z-index: 1;
 	opacity: 1;
 	transition: all .3s;

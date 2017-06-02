@@ -10,7 +10,7 @@ body {
 }
 
 .error-bg {
-	background: url(../../img/error/error-v7.jpg) no-repeat scroll center center / cover;
+	background: url(/Content/assets/img/error/error-v7.jpg) no-repeat scroll center center / cover;
 	padding-bottom: 230px;
 }
 
