@@ -30,6 +30,8 @@ namespace NewApogyWebSite
 
             bundles.Add(new StyleBundle("~/stylesheets/bundle").Include(
                 "~/Content/assets/plugins/bootstrap/css/bootstrap.css",
+                "~/Content/assets/css/app.css",
+                "~/Content/assets/css/css-rtl/app-rtl.css",
                 "~/Content/assets/css/style.css",
                 "~/Content/assets/css/headers/header-v6.css",
                 "~/Content/assets/css/footers/footer-v6.css",
@@ -46,8 +48,8 @@ namespace NewApogyWebSite
             bundles.Add(new StyleBundle("~/stylesheets/bundle2").Include(
                 "~/Content/assets/css/blocks.css",
                 "~/Content/assets/css/css-rtl/blocks-rtl.css",
-                "~/Content/assets/css/app.css",
-                "~/Content/assets/css/css-rtl/app-rtl.css",
+                
+                
                 "~/Content/assets/css/pages/shortcode_timeline2.css",
                 "~/Content/assets/css/css-rtl/headers/header-v6-rtl.css"));
         }
