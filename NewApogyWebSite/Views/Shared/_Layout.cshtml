@@ -8,8 +8,8 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width" />
     <title>@ViewBag.Title</title>
-    @Styles.Render("~/stylesheets/bundle")
     @Styles.Render("~/stylesheets/bundle2")
+    @Styles.Render("~/stylesheets/bundle")
 
     <!-- Meta -->
     <meta charset="utf-8">
@@ -107,9 +107,9 @@
                                         Products
                                     </a>
                                     <ul class="dropdown-menu">
-                                        <li><a href="#">Apogy</a></li>
-                                        <li><a href="#">Apogy Events</a></li>
-                                        <li><a href="#">Podium</a></li>
+                                        <li><a href="@Url.Action("Apogy", "Products")">Apogy</a></li>
+                                        <li><a href="@Url.Action("ApogyEvents", "Products")">Apogy Events</a></li>
+                                        <li><a href="@Url.Action("Podium", "Products")">Podium</a></li>
                                     </ul>
                                 </li>
                                 <!-- End Products -->

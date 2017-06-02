@@ -176,6 +176,7 @@
     <Compile Include="Areas\HelpPage\SampleGeneration\SampleDirection.cs" />
     <Compile Include="Areas\HelpPage\SampleGeneration\TextSample.cs" />
     <Compile Include="Areas\HelpPage\XmlDocumentationProvider.cs" />
+    <Compile Include="Controllers\ProductsController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\ValuesController.cs" />
     <Compile Include="Global.asax.cs">
@@ -5683,6 +5684,9 @@
     <Content Include="stylesheets\fonts\Simple-Line-Icons.woff">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
+    <Content Include="Views\Products\Apogy.cshtml" />
+    <Content Include="Views\Products\ApogyEvents.cshtml" />
+    <Content Include="Views\Products\Podium.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
