@@ -604,7 +604,7 @@ cite {
 
 .zigzag {
 	padding-top: 20px;
-	background: url(../img/zigzag.png) top left repeat-x;
+	background: url(/Content/assets/img/zigzag.png) top left repeat-x;
 	top: -20px;
 	position: relative;
 }
@@ -660,7 +660,7 @@ code {
 	top: 0;
 	width: 100%;
 	height: 100%;
-	background: url(../img/play.png) center center no-repeat;
+	background: url(/Content/assets/img/play.png) center center no-repeat;
 	background-color: rgba(0, 0, 0, 0.2);
 	border-radius: 3px;
 }
