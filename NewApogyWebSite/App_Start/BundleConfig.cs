@@ -41,8 +41,15 @@ namespace NewApogyWebSite
                 "~/Content/assets/plugins/animated-headline/css/animated-headline.css",
                 "~/Content/assets/css/theme-colors/blue.css",
                 "~/Content/assets/css/theme-skins/dark.css",
-                "~/Content/assets/css/custom.css",
-                "~/Content/assets/css/blocks.css"));
+                "~/Content/assets/css/custom.css"));
+
+            bundles.Add(new StyleBundle("~/stylesheets/bundle2").Include(
+                "~/Content/assets/css/blocks.css",
+                "~/Content/assets/css/css-rtl/blocks-rtl.css",
+                "~/Content/assets/css/app.css",
+                "~/Content/assets/css/css-rtl/app-rtl.css",
+                "~/Content/assets/css/pages/shortcode_timeline2.css",
+                "~/Content/assets/css/css-rtl/headers/header-v6-rtl.css"));
         }
     }
 }
