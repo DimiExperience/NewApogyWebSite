@@ -37,7 +37,7 @@
                 </a>
             </div>
             <h2>
-                <a class="color-dark" href="#">Agenda</a>
+                <a class="color-dark" href="@Url.Action("Index", "Contact")">Agenda</a>
             </h2>
             <p>
                 Gain access to all meeting events tied directly into both personal and private calendars that stay up to date as scheduling updates occur. Changes are completely controlled through the web-based administrative portal.
@@ -51,7 +51,7 @@
                 </a>
             </div>
             <h2>
-                <a class="color-dark" href="#">Content</a>
+                <a class="color-dark" href="@Url.Action("Index", "Contact")">Content</a>
             </h2>
             <p>
                 Eliminate the need for reams of paper and take advantage of the built-in content management features. This helps guarantee that content is always up to date. Digital media comes alive with the inclusion of multimedia elements such as video, audio and interactive exercises.
@@ -65,7 +65,7 @@
                 </a>
             </div>
             <h2>
-                <a class="color-dark" href="#">ARS</a>
+                <a class="color-dark" href="@Url.Action("Index", "Contact")">ARS</a>
             </h2>
             <p>
                 Any presentation can be made more memorable with individual engagement. Apogy’s Audience Response System allows users to participate in polling, surveys, Q&A and multiuser, interactive exercises right from their mobile devices.
@@ -81,7 +81,7 @@
                 </a>
             </div>
             <h2>
-                <a class="color-dark" href="#">Surveys</a>
+                <a class="color-dark" href="@Url.Action("Index", "Contact")">Surveys</a>
             </h2>
             <p>
                 A critical aspect of meeting planning is to know exactly what people want and need, and then to provide it for them. Through embedded surveys, meeting organizers can study current meetings and plan future ones accordingly.
@@ -95,7 +95,7 @@
                 </a>
             </div>
             <h2>
-                <a class="color-dark" href="#">Polling</a>
+                <a class="color-dark" href="@Url.Action("Index", "Contact")">Polling</a>
             </h2>
             <p>
                 Measure the pulse of the group. Integrated polling with real time results injects a dynamic element into any meeting.
@@ -109,7 +109,7 @@
                 </a>
             </div>
             <h2>
-                <a class="color-dark" href="#">Networking</a>
+                <a class="color-dark" href="@Url.Action("Index", "Contact")">Networking</a>
             </h2>
             <p>
                 Extensive tracking, coupled with big data analytics and graph analysis, drive the recommendation engine, matching individuals and groups to lasting networks of professional peers.
@@ -126,7 +126,7 @@
                 </a>
             </div>
             <h2>
-                <a class="color-dark" href="#">Social</a>
+                <a class="color-dark" href="@Url.Action("Index", "Contact")">Social</a>
             </h2>
             <p>
                 Apogy messaging, MeetUps and collaborative challenges are only part of the social equation. Full integration with traditional channels, such as LinkedIn and Twitter, is also available. Keeping in touch is simple when attendees can easily manage new connections, share contact information and stay connected long after the event.
@@ -140,7 +140,7 @@
                 </a>
             </div>
             <h2>
-                <a class="color-dark" href="#">Messaging</a>
+                <a class="color-dark" href="@Url.Action("Index", "Contact")">Messaging</a>
             </h2>
             <p>
                 Real time, geo-tagged, individual and group messaging provides an effective channel to supplement any meeting. All messages are archived and searchable so that key thoughts and insights are preserved for later reference.
@@ -154,7 +154,7 @@
                 </a>
             </div>
             <h2>
-                <a class="color-dark" href="#">Gamification</a>
+                <a class="color-dark" href="@Url.Action("Index", "Contact")">Gamification</a>
             </h2>
             <p>
                 The key to a successful meeting is to engage the attendees with novel and memorable events that spark interaction between them. Group and individual competitive activities can be embedded throughout the meeting, aided by their mobile devices. Virtual rewards and leaderboards help spur creativity.
@@ -170,7 +170,7 @@
                 </a>
             </div>
             <h2>
-                <a class="color-dark" href="#">Notifications</a>
+                <a class="color-dark" href="@Url.Action("Index", "Contact")">Notifications</a>
             </h2>
             <p>
                 Meeting organizers can target attendees or groups with personalized notifications highlighting important and time sensitive information through a familiar interface before, during and after the event.
@@ -184,7 +184,7 @@
                 </a>
             </div>
             <h2>
-                <a class="color-dark" href="#">Guides</a>
+                <a class="color-dark" href="@Url.Action("Index", "Contact")">Guides</a>
             </h2>
             <p>
                 Complete guides to local entertainment, attractions, transportation, lodging and dining enhance your entire stay. Apogy is your companion for the entire event.
@@ -198,7 +198,7 @@
                 </a>
             </div>
             <h2>
-                <a class="color-dark" href="#">Maps</a>
+                <a class="color-dark" href="@Url.Action("Index", "Contact")">Maps</a>
             </h2>
             <p>
                 View detailed maps for everything from the hotel and meeting rooms, to vendor booths and coffee stations. Enhanced maps include iBeacon driven real-time locations of all attendees. Augmented reality powers step-by-step directions.
@@ -213,7 +213,7 @@
         $(function () {
             $('.row').each(function (i, elem) {
                 $(elem)
-                    .find('.asd') // Only children of this row
+                    .find('.col-sm-4') // Only children of this row
                     .matchHeight(); // Row detection gets confused so disable it
             });
         });

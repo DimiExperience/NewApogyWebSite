@@ -1,1 +1,126 @@
-﻿<h1>TODO</h1>
+﻿<div class="breadcrumbs-v3 img-v6 text-center">
+    <div class="container">
+        <h1>Coaching & Communication</h1>
+        <p>
+            Mentor, Coach and connect the world’s best teachers to your employees anywhere at anytime.
+        </p>
+    </div>
+</div>
+<!--=== End Breadcrumbs v3 ===-->
+<!--=== Image Block ===-->
+<div class="container content-sm">
+    <div class="headline-center margin-bottom-60">
+        <h2>Make Connections</h2>
+        <p>
+            As the world becomes more automated, it’s important to remember the value of live mentorship from someone who’s been there. Apogy provides the tools a coach needs to artfully manage the development of their team. Apogy empowers coaches and mentors with live peer-to-peer mentoring sessions and interactive presentation tools.
+            </p><br>
+        <p>
+            Coaches are completely accessible to their teams, even if they’re across the country. Connect through live video chat, either one-on-one or in small groups. Apogy allows coaches to share learning materials and presentations, with interactive features such allowing team members to interject, ask questions and even send real time messages.
+            </p><br>
+    </div>
+</div>
+<!--=== End Image Block ===-->
+<!--=== Featured Blog ===-->
+<div class="container content-sm">
+    <div class="row featured-blog">
+        <div class="col-sm-4 sm-margin-bottom-50">
+            <div class="featured-img">
+                <img class="img-responsive margin-bottom-20" src="/Content/assets/images/oldWebsitePics/coachingCommunication/Social-Learning.png" alt="">
+                <a href="#">
+                    <i class="rounded-x fa fa-download"></i>
+                </a>
+            </div>
+            <h2>
+                <a class="color-dark" href="@Url.Action("Index", "Contact")">Social Learning</a>
+            </h2>
+            <p>
+                Apogy incorporates social features such as chat, peer mentoring, group collaboration and audio/visual participation giving learners more tools to engage with.
+            </p>
+        </div>
+        <div class="col-sm-4 sm-margin-bottom-50">
+            <div class="featured-img">
+                <img class="img-responsive margin-bottom-20" src="/Content/assets/images/oldWebsitePics/coachingCommunication/Virtual-Classroom.png" alt="">
+                <a href="#">
+                    <i class="rounded-x fa fa-download"></i>
+                </a>
+            </div>
+            <h2>
+                <a class="color-dark" href="@Url.Action("Index", "Contact")">Virtual Classroom</a>
+            </h2>
+            <p>
+                Why be limited by geography? Noggin’s virtual classrooms allow small groups of learners and trainers to engage in a videoconference with support for peer-to-peer audio, video, and shared content streaming.
+            </p>
+        </div>
+        <div class="col-sm-4">
+            <div class="featured-img">
+                <img class="img-responsive margin-bottom-20" src="/Content/assets/images/oldWebsitePics/coachingCommunication/Activity-Forum.png" alt="">
+                <a href="#">
+                    <i class="rounded-x fa fa-download"></i>
+                </a>
+            </div>
+            <h2>
+                <a class="color-dark" href="@Url.Action("Index", "Contact")">Activity Forum</a>
+            </h2>
+            <p>
+                Every learner is different and not all topics can be taught in the same way. Noggin offers over two dozen multi-sensory activity formats or modalities ranging from eBooks, podcasts, and interactive videos to serious games, immersive learning labs and 3D simulations.
+            </p>
+        </div>
+    </div><!--/end row-->
+    <div class="row featured-blog">
+        <div class="col-sm-4 sm-margin-bottom-50">
+            <div class="featured-img">
+                <img class="img-responsive margin-bottom-20" src="/Content/assets/images/oldWebsitePics/coachingCommunication/Content-1.png" alt="">
+                <a href="#">
+                    <i class="rounded-x fa fa-download"></i>
+                </a>
+            </div>
+            <h2>
+                <a class="color-dark" href="@Url.Action("Index", "Contact")">Content</a>
+            </h2>
+            <p>
+                Take advantage of the built-in content management features to help guarantee that content is always up-to-date. Digital media comes alive with video, audio and interactive exercises. Facilitators can instantly switch between activities and add new items on the fly.
+            </p>
+        </div>
+        <div class="col-sm-4 sm-margin-bottom-50">
+            <div class="featured-img">
+                <img class="img-responsive margin-bottom-20" src="/Content/assets/images/oldWebsitePics/coachingCommunication/Notification.png" alt="">
+                <a href="#">
+                    <i class="rounded-x fa fa-download"></i>
+                </a>
+            </div>
+            <h2>
+                <a class="color-dark" href="@Url.Action("Index", "Contact")">Notification</a>
+            </h2>
+            <p>
+                Never miss an important meeting again. The fully configurable cloud-based notification engine will remind you when, where, and how you want.
+            </p>
+        </div>
+        <div class="col-sm-4">
+            <div class="featured-img">
+                <img class="img-responsive margin-bottom-20" src="/Content/assets/images/oldWebsitePics/coachingCommunication/Demonstrate-Success.png" alt="">
+                <a href="#">
+                    <i class="rounded-x fa fa-download"></i>
+                </a>
+            </div>
+            <h2>
+                <a class="color-dark" href="@Url.Action("Index", "Contact")">Chat</a>
+            </h2>
+            <p>
+                Chat with the presenter, a peer or the group during the presentation. This is a great way for participants to stay engaged and gain more information about the key messages without having to interrupt the session.
+            </p>
+        </div>
+    </div><!--/end row-->
+</div>
+<!--=== End Featured Blog ===-->
+
+@section PageScripts {
+    <script>
+        $(function () {
+            $('.row').each(function (i, elem) {
+                $(elem)
+                    .find('.col-sm-4') // Only children of this row
+                    .matchHeight(); // Row detection gets confused so disable it
+            });
+        });
+    </script>
+}
