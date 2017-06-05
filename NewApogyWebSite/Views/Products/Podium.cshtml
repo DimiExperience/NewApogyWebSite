@@ -124,3 +124,14 @@
     </div>
 </div>
 <!-- End Testimonials Carousel -->
+@section PageScripts {
+    <script>
+        $(function () {
+            $('.row').each(function (i, elem) {
+                $(elem)
+                    .find('.service-block-v8') // Only children of this row
+                    .matchHeight(); // Row detection gets confused so disable it
+            });
+        });
+    </script>
+}

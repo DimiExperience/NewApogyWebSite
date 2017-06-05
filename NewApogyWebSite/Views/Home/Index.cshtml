@@ -15,7 +15,7 @@
 <!-- End Interactive Slider v2 -->
 <!--=== Colorfull Blocks ===-->
 <div class="container-fluid">
-    <div class="row no-gutter equal-height-columns">
+    <div class="row no-gutter equal-height-column">
         <div class="col-sm-4">
             <div class="service-block service-block-purple no-margin-bottom content equal-height-column">
                 <i class="icon-custom icon-md rounded icon-color-light icon-line icon-graduation"></i>
@@ -136,3 +136,14 @@
     </div>
 </div>
 <!-- End Callout v2 -->
+@section PageScripts {
+    <script>
+        $(function() {
+            $('.row').each(function(i, elem) {
+                $(elem)
+                    .find('.equal-height-column') // Only children of this row
+                    .matchHeight(); // Row detection gets confused so disable it
+            });
+        });
+    </script>
+}

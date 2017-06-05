@@ -27,7 +27,8 @@ namespace NewApogyWebSite
                 "~/Content/assets/js/custom.js",
                 "~/Content/assets/js/app.js",
                 "~/Content/assets/js/plugins/style-switcher.js",
-                "~/Content/assets/js/plugins/cube-portfolio/cube-portfolio-lightbox.js"));
+                "~/Content/assets/js/plugins/cube-portfolio/cube-portfolio-lightbox.js",
+                "~/Scripts/jquery.matchHeight.js"));
 
             bundles.Add(new StyleBundle("~/stylesheets/bundle").Include(
                 "~/Content/assets/plugins/bootstrap/css/bootstrap.css",

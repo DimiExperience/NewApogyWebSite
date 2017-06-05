@@ -9,7 +9,7 @@
 <!--=== Featured Blog ===-->
 <div class="container content-sm">
     <div class="row featured-blog">
-        <div class="col-sm-4 sm-margin-bottom-50">
+        <div class="col-sm-4 sm-margin-bottom-50 equal-height-column">
             <div class="featured-img">
                 <img class="img-responsive margin-bottom-20" src="/Content/assets/images/lexa/onePlaceToGo.png" alt="">
                 <a href="#"><i class="rounded-x fa fa-link"></i></a>
@@ -19,7 +19,7 @@
                 Create a single place for field collaboration, communication, and knowledge management, helping to simplify control and access to all content. Multiple languages supported, with many file types supported for quick access to team news, announcements, sales materials, documentation, and presentations. Through integrations content from marketing, CRM, and DMS systems are available, both on and offline.
             </p>
         </div>
-        <div class="col-sm-4 sm-margin-bottom-50">
+        <div class="col-sm-4 sm-margin-bottom-50 equal-height-column">
             <div class="featured-img">
                 <img class="img-responsive margin-bottom-20" src="/Content/assets/images/lexa/singleTapCommunication.png" alt="">
                 <a href="#"><i class="rounded-x fa fa-link"></i></a>
@@ -29,7 +29,7 @@
                 Apogy’s virtual presentation, online meeting, and chat capabilities are designed to meet the 21st century business communication needs. From person to person calls, internal online meetings to setting up an online or booked appointment up with a customer, getting users connected has never been so easy.
             </p>
         </div>
-        <div class="col-sm-4">
+        <div class="col-sm-4 sm-margin-bottom-50 equal-height-column">
             <div class="featured-img">
                 <img class="img-responsive margin-bottom-20" src="/Content/assets/images/lexa/driveAlignment.png" alt="">
                 <a href="#"><i class="rounded-x fa fa-link"></i></a>
@@ -112,7 +112,7 @@
                 </div>
             </div>
             <div class="col-md-4">
-                <img class="img-responsive img-center" src="/Content/assets/images/lexa/fieldEnablementBanner.jpg" width="300" alt="">
+                <img class="img-responsive img-center" src="/Content/assets/images/lexa/fieldEnablementBanner.png" width="300" alt="">
             </div>
         </div><!--/end row-->
     </div><!--/end container-->
@@ -217,3 +217,14 @@
     </div>
 </div>
 <!--=== End Service Block ===-->
+@section PageScripts {
+    <script>
+        $(function() {
+            $('.row').each(function(i, elem) {
+                $(elem)
+                    .find('.service-block-v8') // Only children of this row
+                    .matchHeight(); // Row detection gets confused so disable it
+            });
+        });
+    </script>
+}
