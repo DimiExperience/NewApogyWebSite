@@ -184,11 +184,11 @@
                 <div class="col-md-3 sm-margin-bottom-40">
                     <div class="heading-footer"><h2>Useful Links</h2></div>
                     <ul class="list-unstyled footer-link-list">
-                        <li><a href="#">Home</a></li>
-                        <li><a href="#">Apogy</a></li>
-                        <li><a href="#">Apogy Events</a></li>
-                        <li><a href="#">Podium</a></li>
-                        <li><a href="#">Contact Us</a></li>
+                        <li><a href="@Url.Action("Index", "Home")">Home</a></li>
+                        <li><a href="@Url.Action("Apogy", "Products")">Apogy</a></li>
+                        <li><a href="@Url.Action("ApogyEvents", "Products")">Apogy Events</a></li>
+                        <li><a href="@Url.Action("Podium", "Products")">Podium</a></li>
+                        <li><a href="@Url.Action("Index", "Contact")">Contact Us</a></li>
                     </ul>
                 </div>
                 <!-- End Useful Links -->
@@ -204,8 +204,8 @@
                         </li>
                         <li>
                             <i class="radius-3x fa fa-globe"></i>
-                            <a href="#">info@apogy.com</a><br>
-                            <a href="#">www.apogy.com</a>
+                            <a href="@Url.Action("Index", "Contact")">info@apogy.com</a><br>
+                            <a href="https://www.apogy.com">www.apogy.com</a>
                         </li>
                     </ul>
                 </div>
@@ -220,21 +220,19 @@
                 <div class="col-md-8 sm-margon-bottom-10">
                     <ul class="list-inline terms-menu">
                         <li class="silver">Copyright © 2017 - All Rights Reserved</li>
-                        <li><a href="#">Terms of Use</a></li>
                         <li><a href="@Url.Action("Index", "Privacy")">Privacy and Policy</a></li>
-                        <li><a href="#">License</a></li>
-                        <li><a href="#">Support</a></li>
+                        <li><a href="@Url.Action("Support", "About")">Support</a></li>
                     </ul>
                 </div>
                 <div class="col-md-4">
                     <ul class="list-inline dark-social pull-right space-bottom-0">
                         <li>
-                            <a data-placement="top" data-toggle="tooltip" class="tooltips" data-original-title="Facebook" href="#">
+                            <a data-placement="top" data-toggle="tooltip" class="tooltips" data-original-title="Facebook" href="https://www.facebook.com/apogy/">
                                 <i class="fa fa-facebook"></i>
                             </a>
                         </li>
                         <li>
-                            <a data-placement="top" data-toggle="tooltip" class="tooltips" data-original-title="Twitter" href="#">
+                            <a data-placement="top" data-toggle="tooltip" class="tooltips" data-original-title="Twitter" href="https://twitter.com/apogyapp">
                                 <i class="fa fa-twitter"></i>
                             </a>
                         </li>
