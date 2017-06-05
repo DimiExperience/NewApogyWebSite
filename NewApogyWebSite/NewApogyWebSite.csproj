@@ -176,6 +176,8 @@
     <Compile Include="Areas\HelpPage\SampleGeneration\SampleDirection.cs" />
     <Compile Include="Areas\HelpPage\SampleGeneration\TextSample.cs" />
     <Compile Include="Areas\HelpPage\XmlDocumentationProvider.cs" />
+    <Compile Include="Controllers\AboutController.cs" />
+    <Compile Include="Controllers\SolutionsController.cs" />
     <Compile Include="Controllers\PrivacyController.cs" />
     <Compile Include="Controllers\ProductsController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
@@ -5690,6 +5692,30 @@
     <Content Include="Views\Products\ApogyEvents.cshtml" />
     <Content Include="Views\Products\Podium.cshtml" />
     <Content Include="Views\Privacy\Index.cshtml" />
+    <Content Include="Views\Solutions\CommercialEnablement.cshtml" />
+    <Content Include="Views\Solutions\Onboarding.cshtml" />
+    <Content Include="Views\Solutions\GainingInsights.cshtml" />
+    <Content Include="Views\Solutions\PlanOfActionMeetings.cshtml" />
+    <Content Include="Views\Solutions\SpeakerPrograms.cshtml" />
+    <Content Include="Views\Solutions\ClassroomTraining.cshtml" />
+    <Content Include="Views\Solutions\CoachingCommunication.cshtml" />
+    <Content Include="Views\Solutions\ContentDelivery.cshtml" />
+    <Content Include="Views\Solutions\FieldLearning.cshtml" />
+    <Content Include="Views\Solutions\SocialAggregation.cshtml" />
+    <Content Include="Views\Solutions\MobileWorkforce.cshtml" />
+    <Content Include="Views\Solutions\ProductRealignment.cshtml" />
+    <Content Include="Views\Solutions\RegionalTraining.cshtml" />
+    <Content Include="Views\Solutions\SalesKickoffs.cshtml" />
+    <Content Include="Views\About\Platform.cshtml" />
+    <Content Include="Views\About\Team.cshtml" />
+    <Content Include="Views\About\Security.cshtml" />
+    <Content Include="Views\About\Service.cshtml" />
+    <Content Include="Views\About\Blog.cshtml" />
+    <Content Include="Views\About\Support.cshtml" />
+    <Content Include="Views\About\Training.cshtml" />
+    <Content Include="Views\About\Contact.cshtml" />
+    <Content Include="Views\About\Awards.cshtml" />
+    <Content Include="Views\About\Customers.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
