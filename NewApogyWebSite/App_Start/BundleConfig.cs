@@ -31,8 +31,8 @@ namespace NewApogyWebSite
 
             bundles.Add(new StyleBundle("~/stylesheets/bundle").Include(
                 "~/Content/assets/plugins/bootstrap/css/bootstrap.css",
-                "~/Content/assets/css/app.css",
                 "~/Content/assets/css/style.css",
+                "~/Content/assets/css/app.css",
                 "~/Content/assets/plugins/animate.css",
                 "~/Content/assets/plugins/line-icons/line-icons.css",
                 "~/Content/assets/plugins/font-awesome/css/font-awesome.css",

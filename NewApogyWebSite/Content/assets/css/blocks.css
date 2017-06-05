@@ -461,6 +461,18 @@
   background-position: center center;
 }
 
+    .breadcrumbs-v3.img-v4 {
+        background: url(/Content/assets/images/lexa/fieldEnablementBanner.jpg) no-repeat;
+        background-size: cover;
+        background-position: center center;
+    }
+
+    .breadcrumbs-v3.img-v5 {
+        background: url(/Content/assets/images/lexa/speakerTrainingBanner.jpg) no-repeat;
+        background-size: cover;
+        background-position: center center;
+    }
+
 .breadcrumbs-v3:after {
   top: 0;
   left: 0;
@@ -3563,6 +3575,10 @@
 
 .interactive-slider-v2-md {
   padding: 250px 0;
+}
+
+.interactive-slider-v2-sm {
+    padding: 100px 0;
 }
 
 .interactive-slider-v2.img-v1 {
