@@ -10,85 +10,85 @@ namespace NewApogyWebSite.Controllers
     {
         public ActionResult CommercialEnablement()
         {
-            ViewBag.Title = "Privacy Policy";
+            ViewBag.Title = "Commercial Enablement";
 
             return View();
         }
         public ActionResult Onboarding()
         {
-            ViewBag.Title = "Privacy Policy";
+            ViewBag.Title = "Onboarding";
 
             return View();
         }
         public ActionResult ProductRealignment()
         {
-            ViewBag.Title = "Privacy Policy";
+            ViewBag.Title = "Product Realignment";
 
             return View();
         }
         public ActionResult RegionalTraining()
         {
-            ViewBag.Title = "Privacy Policy";
+            ViewBag.Title = "Regional Training";
 
             return View();
         }
         public ActionResult SalesKickoffs()
         {
-            ViewBag.Title = "Privacy Policy";
+            ViewBag.Title = "Sales Kickoffs";
 
             return View();
         }
         public ActionResult PlanOfActionMeetings()
         {
-            ViewBag.Title = "Privacy Policy";
+            ViewBag.Title = "Plan Of Action Meetings";
 
             return View();
         }
         public ActionResult SpeakerPrograms()
         {
-            ViewBag.Title = "Privacy Policy";
+            ViewBag.Title = "Speaker Programs";
 
             return View();
         }
         public ActionResult ClassroomTraining()
         {
-            ViewBag.Title = "Privacy Policy";
+            ViewBag.Title = "Classroom Training";
 
             return View();
         }
         public ActionResult CoachingCommunication()
         {
-            ViewBag.Title = "Privacy Policy";
+            ViewBag.Title = "Coaching Communication";
 
             return View();
         }
         public ActionResult ContentDelivery()
         {
-            ViewBag.Title = "Privacy Policy";
+            ViewBag.Title = "Content Delivery";
 
             return View();
         }
         public ActionResult FieldLearning()
         {
-            ViewBag.Title = "Privacy Policy";
+            ViewBag.Title = "Field Learning";
 
             return View();
         }
         public ActionResult SocialAggregation()
         {
-            ViewBag.Title = "Privacy Policy";
+            ViewBag.Title = "Social Aggregation";
 
             return View();
         }
         public ActionResult MobileWorkforce()
         {
-            ViewBag.Title = "Privacy Policy";
+            ViewBag.Title = "Mobile Workforce";
 
             return View();
         }
         public ActionResult GainingInsights()
         {
-            ViewBag.Title = "Privacy Policy";
+            ViewBag.Title = "Gaining Insights";
 
             return View();
         }

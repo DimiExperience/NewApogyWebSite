@@ -472,6 +472,11 @@
         background-size: cover;
         background-position: center center;
     }
+    .breadcrumbs-v3.img-v6 {
+        background: url(/Content/assets/img/breadcrumbs/img3.jpg) no-repeat;
+        background-size: cover;
+        background-position: center center;
+    }
 
 .breadcrumbs-v3:after {
   top: 0;
