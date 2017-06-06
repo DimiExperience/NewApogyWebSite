@@ -54,6 +54,7 @@ namespace NewApogyWebSite
                 "~/Content/assets/css/custom.css",
                 "~/Content/assets/plugins/fancybox/source/jquery.fancybox.css",
                 "~/Content/assets/plugins/owl-carousel/owl-carousel/owl.carousel.css",
+                "~/Content/assets/plugins/owl-carousel/owl-carousel/owl.theme.css",
                 "~/Content/assets/plugins/parallax-slider/css/parallax-slider.css"));
 
             bundles.Add(new StyleBundle("~/stylesheets/bundle2").Include(
