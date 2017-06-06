@@ -8,6 +8,12 @@ namespace NewApogyWebSite.Controllers
 {
     public class AboutController : Controller
     {
+        public ActionResult AboutUs()
+        {
+            ViewBag.Title = "About Apogy";
+
+            return View();
+        }
         public ActionResult Platform()
         {
             ViewBag.Title = "Platform";
@@ -47,24 +53,6 @@ namespace NewApogyWebSite.Controllers
         public ActionResult Customers()
         {
             ViewBag.Title = "Customers";
-
-            return View();
-        }
-        public ActionResult Team()
-        {
-            ViewBag.Title = "Team";
-
-            return View();
-        }
-        public ActionResult Blog()
-        {
-            ViewBag.Title = "Blog";
-
-            return View();
-        }
-        public ActionResult Contact()
-        {
-            ViewBag.Title = "Contact";
 
             return View();
         }

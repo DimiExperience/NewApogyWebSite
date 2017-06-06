@@ -177,6 +177,8 @@
     <Compile Include="Areas\HelpPage\SampleGeneration\TextSample.cs" />
     <Compile Include="Areas\HelpPage\XmlDocumentationProvider.cs" />
     <Compile Include="Controllers\AboutController.cs" />
+    <Compile Include="Controllers\BlogController.cs" />
+    <Compile Include="Controllers\LoginController.cs" />
     <Compile Include="Controllers\ContactController.cs" />
     <Compile Include="Controllers\SolutionsController.cs" />
     <Compile Include="Controllers\PrivacyController.cs" />
@@ -5748,15 +5750,16 @@
     <Content Include="Views\Solutions\RegionalTraining.cshtml" />
     <Content Include="Views\Solutions\SalesKickoffs.cshtml" />
     <Content Include="Views\About\Platform.cshtml" />
-    <Content Include="Views\About\Team.cshtml" />
+    <Content Include="Views\About\AboutUs.cshtml" />
     <Content Include="Views\About\Security.cshtml" />
     <Content Include="Views\About\Service.cshtml" />
-    <Content Include="Views\About\Blog.cshtml" />
+    <Content Include="Views\Blog\Index.cshtml" />
     <Content Include="Views\About\Support.cshtml" />
     <Content Include="Views\About\Training.cshtml" />
     <Content Include="Views\Contact\Index.cshtml" />
     <Content Include="Views\About\Awards.cshtml" />
     <Content Include="Views\About\Customers.cshtml" />
+    <Content Include="Views\Login\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

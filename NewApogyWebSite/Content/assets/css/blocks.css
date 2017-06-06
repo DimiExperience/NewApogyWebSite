@@ -443,11 +443,11 @@
   padding: 200px 0;
 }
 
-.breadcrumbs-v3.img-v1 {
-  background: url(/Content/assets/img/breadcrumbs/img1.jpg) no-repeat;
-  background-size: cover;
-  background-position: center center;
-}
+    .breadcrumbs-v3.img-v1 {
+        background: url(/Content/assets/img/bg/img8.jpg) no-repeat;
+        background-size: cover;
+        background-position: center center;
+    }
 
 .breadcrumbs-v3.img-v2 {
   background: url(/Content/assets/img/breadcrumbs/img2.jpg) no-repeat;
