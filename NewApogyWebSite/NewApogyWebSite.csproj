@@ -5758,7 +5758,6 @@
     <Content Include="Views\About\Training.cshtml" />
     <Content Include="Views\Contact\Index.cshtml" />
     <Content Include="Views\About\Awards.cshtml" />
-    <Content Include="Views\About\Customers.cshtml" />
     <Content Include="Views\Login\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>

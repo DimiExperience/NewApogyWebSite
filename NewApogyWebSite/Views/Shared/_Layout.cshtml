@@ -8,19 +8,16 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width" />
     <title>@ViewBag.Title</title>
-    @Styles.Render("~/stylesheets/bundle2")
-    @Styles.Render("~/stylesheets/bundle")
-
     <!-- Meta -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="">
     <meta name="author" content="">
-
     <!-- Favicon -->
-
     <!-- Web Fonts -->
     <link rel='stylesheet' type='text/css' href='//fonts.googleapis.com/css?family=Open+Sans:400,300,600&amp;subset=cyrillic,latin'>
+    @Styles.Render("~/stylesheets/bundle2")
+    @Styles.Render("~/stylesheets/bundle")
 </head>
 <body class="header-fixed">
 <div class="wrapper">
@@ -126,7 +123,6 @@
                                     <li><a href="@Url.Action("Support", "About")">Support</a></li>
                                     <li><a href="@Url.Action("Training", "About")">Training</a></li>
                                     <li><a href="@Url.Action("Awards", "About")">Awards</a></li>
-                                    <li><a href="@Url.Action("Customers", "About")">Customers</a></li>
                                     <li><a href="@Url.Action("Index", "Blog")">Blog</a></li>
                                     <li><a href="@Url.Action("Index", "Contact")">Contact Us</a></li>
                                 </ul>
