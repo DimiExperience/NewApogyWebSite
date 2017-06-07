@@ -589,6 +589,8 @@
     <Content Include="Content\assets\img\breadcrumbs\img1.jpg" />
     <Content Include="Content\assets\img\breadcrumbs\img2.jpg" />
     <Content Include="Content\assets\img\breadcrumbs\img3.jpg" />
+    <Content Include="Content\assets\img\breadcrumbs\img4.jpg" />
+    <Content Include="Content\assets\img\breadcrumbs\img5.jpg" />
     <Content Include="Content\assets\img\clients2\austrian-airlines.png" />
     <Content Include="Content\assets\img\clients2\baderbrau.png" />
     <Content Include="Content\assets\img\clients2\bellfield.png" />
