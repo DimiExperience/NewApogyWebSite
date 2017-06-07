@@ -477,6 +477,11 @@
         background-size: cover;
         background-position: top;
     }
+.breadcrumbs-v3.img-v7 {
+    background: url(/Content/assets/img/breadcrumbs/img2.jpg) no-repeat;
+    background-size: cover;
+    background-position: top;
+}
 
 .breadcrumbs-v3:after {
   top: 0;
