@@ -4,8 +4,8 @@
     width: 100%;
 }
 
-.navbarPadding {
-    padding-top: 100px;
+@media (min-width: 991px) {
+    .navbarPadding { padding-top: 100px; }
 }
 
 .smallerText {
