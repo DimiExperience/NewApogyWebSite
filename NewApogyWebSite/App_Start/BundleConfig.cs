@@ -63,7 +63,8 @@ namespace NewApogyWebSite
                 "~/Content/assets/css/pages/shortcode_timeline2.css",
                 "~/Content/assets/css/pages/shortcode_timeline1.css",
                 "~/Content/assets/plugins/sky-forms-pro/skyforms/css/sky-forms.css",
-                "~/Content/assets/plugins/sky-forms-pro/skyforms/custom/custom-sky-forms.css"));
+                "~/Content/assets/plugins/sky-forms-pro/skyforms/custom/custom-sky-forms.css",
+                "~/Content/assets/plugins/line-icons-pro/styles.css"));
         }
     }
 }
