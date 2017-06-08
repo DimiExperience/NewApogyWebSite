@@ -1,46 +1,47 @@
-﻿<!-- Interactive Slider v2 -->
-<div class="interactive-slider-v2 interactive-slider-v2-md img-v3">
-    <div class="container">
-        <h2 class="cd-headline push">
-            <span class="cd-words-wrapper">
-                <b class="is-visible">Less Process.<br/>More Selling</b>
-                <b>Unifying<br />Experiences</b>
-                <b>Launching with<br />Confidence</b>
-                <b>Driving<br />Performance</b>
-            </span>
-        </h2>
-        <p>Apogy unifies all aspects of the commercial workflow to accelerate individual contribution and power organizational performance. We make remote teams more effective by keeping them mobile, connected, and informed.</p>
-    </div>
-</div>
-<!-- End Interactive Slider v2 -->
-<!--=== Colorfull Blocks ===-->
-<div class="container-fluid">
-    <div class="row no-gutter equal-height-column">
-        <div class="col-sm-4">
-            <div class="service-block service-block-purple no-margin-bottom content equal-height-column">
-                <a href="@Url.Action("Apogy", "Products")"><i class="icon-custom icon-md rounded icon-color-light icon-line icon-graduation"></i></a>
-                <h2 class="font-light">Powering Commercial Enablement</h2>
-                <p class="no-margin-bottom font-light">We uniquely understand the demands placed on today’s commercial teams and the need to streamline workflows with many dimensions.</p>
-            </div>
-        </div>
-        <div class="col-sm-4">
-            <div class="service-block service-block-red no-margin-bottom content equal-height-column">
-                <a href="@Url.Action("ApogyEvents", "Products")"><i class="icon-custom icon-md rounded icon-color-light icon-line icon-users"></i></a>
-                <h2 class="font-light">Connected, Intuitive Solutions</h2>
-                <p class="no-margin-bottom font-light">Built by Life Sciences for Life Sciences, Apogy is maniacally focused on solving the Activity, Training, and Event-centric burdens placed on commercial teams.</p>
-            </div>
-        </div>
-        <div class="col-sm-4">
-            <div class="service-block service-block-blue no-margin-bottom content equal-height-column">
-                <a href="@Url.Action("Podium", "Products")"><i class="icon-custom icon-md rounded icon-color-light icon-line icon-cloud-upload"></i></a>
-                <h2 class="font-light">SaaS & Mobile Platform</h2>
-                <p class="no-margin-bottom font-light">Make teams more effective by keeping them mobile, connected, and informed during sales engagements, events, and throughout their day.</p>
-            </div>
+﻿<div class="vh100">
+    <!-- Interactive Slider v2 -->
+    <div class="interactive-slider-v2 interactive-slider-v2-md img-v3 vh70">
+        <div class="container">
+            <h2 class="cd-headline push">
+                <span class="cd-words-wrapper">
+                    <b class="is-visible">Less Process.<br />More Selling</b>
+                    <b>Unifying<br />Experiences</b>
+                    <b>Launching with<br />Confidence</b>
+                    <b>Driving<br />Performance</b>
+                </span>
+            </h2>
+            <p>Apogy unifies all aspects of the commercial workflow to accelerate individual contribution and power organizational performance. We make remote teams more effective by keeping them mobile, connected, and informed.</p>
         </div>
     </div>
-</div>
-<!--=== End Colorfull Blocks ===-->
-<!--=== Commercial Enablement ===-->
+    <!-- End Interactive Slider v2 -->
+    <!--=== Colorfull Blocks ===-->
+    <div class="container-fluid vh30">
+        <div class="row no-gutter fullHeight">
+            <div class="col-md-4 fullHeight">
+                <div class="service-block service-block-purple no-margin-bottom content fullHeight">
+                    <a href="@Url.Action("Apogy", "Products")"><i class="icon-custom icon-md rounded icon-color-light icon-line icon-graduation"></i></a>
+                    <h2 class="font-light">Powering Commercial Enablement</h2>
+                    <p class="no-margin-bottom font-light">We uniquely understand the demands placed on today’s commercial teams and the need to streamline workflows with many dimensions.</p>
+                </div>
+            </div>
+            <div class="col-md-4 fullHeight">
+                <div class="service-block service-block-red no-margin-bottom content fullHeight">
+                    <a href="@Url.Action("ApogyEvents", "Products")"><i class="icon-custom icon-md rounded icon-color-light icon-line icon-users"></i></a>
+                    <h2 class="font-light">Connected, Intuitive Solutions</h2>
+                    <p class="no-margin-bottom font-light">Built by Life Sciences for Life Sciences, Apogy is maniacally focused on solving the Activity, Training, and Event-centric burdens placed on commercial teams.</p>
+                </div>
+            </div>
+            <div class="col-md-4 fullHeight">
+                <div class="service-block service-block-blue no-margin-bottom content fullHeight">
+                    <a href="@Url.Action("Podium", "Products")"><i class="icon-custom icon-md rounded icon-color-light icon-line icon-cloud-upload"></i></a>
+                    <h2 class="font-light">SaaS & Mobile Platform</h2>
+                    <p class="no-margin-bottom font-light">Make teams more effective by keeping them mobile, connected, and informed during sales engagements, events, and throughout their day.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--=== End Colorfull Blocks ===-->
+</div><!--=== Commercial Enablement ===-->
 <div class="container content-md">
     <div class="row">
         <div class="col-md-6 md-margin-bottom-40">
@@ -139,15 +140,15 @@
 </div>
 <!-- End Callout v2 -->
 @section PageScripts {
-    <script>
+    @*<script>
         $(function() {
-            $('.row').each(function(i, elem) {
-                $(elem)
-                    .find('.equal-height-column') // Only children of this row
-                    .matchHeight(); // Row detection gets confused so disable it
-            });
+                $('.row').each(function(i, elem) {
+                    $(elem)
+                        .find('.equal-height-column') // Only children of this row
+                        .matchHeight(); // Row detection gets confused so disable it
+                });
         });
-    </script>
+    </script>*@
     <script type="text/javascript">
         jQuery(document).ready(function() {
             App.init();

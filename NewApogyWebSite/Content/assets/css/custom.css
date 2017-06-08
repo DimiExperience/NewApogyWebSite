@@ -20,3 +20,27 @@
     font-size: 30px !important;
     font-weight: 300 !important;
 }
+
+@media(min-width: 991px) and (min-height: 1000px) {
+    .vh100 {
+        height: 100vh
+    }
+}
+
+@media(min-width: 991px) and (min-height: 1000px) {
+    .vh70 {
+        height: 75vh
+    }
+}
+
+@media(min-width: 991px) and (min-height: 1000px) {
+    .vh30 {
+        height: 25vh
+    }
+}
+
+@media(min-width: 991px) and (min-height: 1000px) {
+    .fullHeight {
+        height: 100%;
+    }
+}
