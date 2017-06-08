@@ -44,6 +44,14 @@
 }
 
 @media(min-width: 991px) and (min-height: 900px) {
+    .vh40 {
+        height: 40vh;
+        padding-top: 15%;
+        padding-bottom: 15%
+    }
+}
+
+@media(min-width: 991px) and (min-height: 900px) {
     .vh30 {
         height: 30vh
     }

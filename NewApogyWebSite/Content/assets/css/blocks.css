@@ -470,7 +470,7 @@
     .breadcrumbs-v3.img-v5 {
         background: url(/Content/assets/images/lexa/speakerTrainingBanner.jpg) no-repeat;
         background-size: cover;
-        background-position: center;
+        background-position: top;
     }
     .breadcrumbs-v3.img-v6 {
         background: url(/Content/assets/img/breadcrumbs/img5.jpg) no-repeat;
