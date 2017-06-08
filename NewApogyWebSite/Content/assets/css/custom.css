@@ -62,3 +62,18 @@
         height: 100%;
     }
 }
+
+.h2Headder {
+    color: #fff;
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 60px;
+    text-transform: uppercase;
+}
+
+.pHeadder {
+    color: #fff;
+    font-size: 24px;
+    font-weight: 200;
+    font-family: "Open Sans", Arial, sans-serif;
+}
