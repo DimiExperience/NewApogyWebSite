@@ -28,21 +28,22 @@
 
 .divCenteredOuter {
     display: table;
+    width: 100%
 }
 
-@media(min-width: 991px) and (min-height: 1000px) {
+@media(min-width: 991px) and (min-height: 900px) {
     .vh100 {
         height: 100vh
     }
 }
 
-@media(min-width: 991px) and (min-height: 1000px) {
+@media(min-width: 991px) and (min-height: 900px) {
     .vh70 {
         height: 70vh
     }
 }
 
-@media(min-width: 991px) and (min-height: 1000px) {
+@media(min-width: 991px) and (min-height: 900px) {
     .vh30 {
         height: 30vh
     }
