@@ -21,6 +21,15 @@
     font-weight: 300 !important;
 }
 
+.divCenteredInner {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.divCenteredOuter {
+    display: table;
+}
+
 @media(min-width: 991px) and (min-height: 1000px) {
     .vh100 {
         height: 100vh
@@ -29,13 +38,13 @@
 
 @media(min-width: 991px) and (min-height: 1000px) {
     .vh70 {
-        height: 75vh
+        height: 70vh
     }
 }
 
 @media(min-width: 991px) and (min-height: 1000px) {
     .vh30 {
-        height: 25vh
+        height: 30vh
     }
 }
 
