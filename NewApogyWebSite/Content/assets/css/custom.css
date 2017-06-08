@@ -15,3 +15,8 @@
 .navbarPaddingRight {
     padding-right: 150px;
 }
+
+.h1-custom {
+    font-size: 30px !important;
+    font-weight: 300 !important;
+}
