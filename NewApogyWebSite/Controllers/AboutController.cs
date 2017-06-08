@@ -44,17 +44,11 @@ namespace NewApogyWebSite.Controllers
 
             return View();
         }
-        public ActionResult Awards()
-        {
-            ViewBag.Title = "Awards";
+        //public ActionResult Awards()
+        //{
+        //    ViewBag.Title = "Awards";
 
-            return View();
-        }
-        public ActionResult Customers()
-        {
-            ViewBag.Title = "Customers";
-
-            return View();
-        }
+        //    return View();
+        //}
     }
 }

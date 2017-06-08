@@ -426,6 +426,14 @@
     <Content Include="Content\assets\images\bg-intro-3.jpg" />
     <Content Include="Content\assets\images\bg-intro-4.jpg" />
     <Content Include="Content\assets\images\bg-intro-5.jpg" />
+    <Content Include="Content\assets\images\blog\2017DisruptiveTechnologies4.jpg" />
+    <Content Include="Content\assets\images\blog\3ReasonsWhyIHateMobileApps.jpg" />
+    <Content Include="Content\assets\images\blog\dealKillerBlog.jpg" />
+    <Content Include="Content\assets\images\blog\experienceIsNotTheBestOption.jpg" />
+    <Content Include="Content\assets\images\blog\hardestObjectionForSalespeopleToOvercome.jpg" />
+    <Content Include="Content\assets\images\blog\millenialEmployeesWantDivorceLMS.jpg" />
+    <Content Include="Content\assets\images\blog\smmBecomesApogy2Blog.jpg" />
+    <Content Include="Content\assets\images\blog\whereSocialLearningFails.jpg" />
     <Content Include="Content\assets\images\devices\admin.png" />
     <Content Include="Content\assets\images\devices\device-iphone-1.png" />
     <Content Include="Content\assets\images\devices\device-iphone-2.png" />
@@ -5762,6 +5770,14 @@
     <Content Include="Views\Contact\Index.cshtml" />
     <Content Include="Views\About\Awards.cshtml" />
     <Content Include="Views\Login\Index.cshtml" />
+    <Content Include="Views\Blog\Millennial.cshtml" />
+    <Content Include="Views\Blog\SocialLearning.cshtml" />
+    <Content Include="Views\Blog\PharmaSales.cshtml" />
+    <Content Include="Views\Blog\Forgetfulness.cshtml" />
+    <Content Include="Views\Blog\DistruptiveTech.cshtml" />
+    <Content Include="Views\Blog\BecomingApogy.cshtml" />
+    <Content Include="Views\Blog\DealKiller.cshtml" />
+    <Content Include="Views\Blog\HateMobileApps.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
