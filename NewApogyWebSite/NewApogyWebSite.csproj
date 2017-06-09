@@ -561,9 +561,12 @@
     <Content Include="Content\assets\images\stephen\about_image.jpg" />
     <Content Include="Content\assets\images\stephen\blog_image.jpg" />
     <Content Include="Content\assets\images\stephen\contact_image.jpg" />
+    <Content Include="Content\assets\images\stephen\drive_alignment.png" />
     <Content Include="Content\assets\images\stephen\implementation_image.jpg" />
+    <Content Include="Content\assets\images\stephen\one_place_to_go.png" />
     <Content Include="Content\assets\images\stephen\security_iamge.jpg" />
     <Content Include="Content\assets\images\stephen\services_image.jpg" />
+    <Content Include="Content\assets\images\stephen\single_tap_communication.png" />
     <Content Include="Content\assets\images\stephen\support_image.jpg" />
     <Content Include="Content\assets\images\stephen\training_image.jpg" />
     <Content Include="Content\assets\images\user-avatar2.jpg" />
