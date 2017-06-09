@@ -15,36 +15,30 @@
 <div class="container content">
     <div class="row">
         <div class="col-md-9">
-            <div class="headline-center">
-                <h2>Please select product(s):</h2>
-            </div>
-        
             <form method="post" id="sky-form3" class="sky-form contact-style">
             @using (Html.BeginForm())
             {
                 @Html.AntiForgeryToken()
-                <fieldset>
+                
+                <fieldset class="no-padding">
+                    
+                    
                     <section>
-
-                        <div class="row">
-                            <div class="col col-4">
-                                <label class="checkbox"><input type="checkbox" name="checkbox"><i></i>Apogy</label>
-                            </div>
-                            <div class="col col-4">
-                                <label class="checkbox"><input type="checkbox" name="checkbox"><i></i>Apogy Events</label>
-                            </div>
-                            <div class="col col-4">
-                                <label class="checkbox"><input type="checkbox" name="checkbox"><i></i>Podium</label>
+                        <div class="row sky-space-20">
+                            <div class="col-md-7 col-md-offset-0">
+                                <label class="select">
+                                    @Html.DropDownListFor(m => m.Products, new SelectList(new List<string>() {"Please select product", "Apogy", "Apogy Events", "Podium"}), new {@class = "select"})
+                                    <i></i>
+                                </label>
                             </div>
                         </div>
                     </section>
-                </fieldset>
-                <fieldset class="no-padding">
+
                     <label>Name <span class="color-red">*</span></label>
                     <div class="row sky-space-20">
                         <div class="col-md-7 col-md-offset-0">
                             <div>
-                                @Html.TextBoxFor(m => m.FromName, new { @placeholder="Please enter your full name", @type="text", @name="name", @id="name", @class="form-control" })
+                                @Html.TextBoxFor(m => m.FromName, new {@placeholder = "Please enter your full name", @type = "text", @name = "name", @id = "name", @class = "form-control"})
                             </div>
                         </div>
                     </div>
@@ -53,7 +47,7 @@
                     <div class="row sky-space-20">
                         <div class="col-md-7 col-md-offset-0">
                             <div>
-                                @Html.TextBoxFor(m => m.Company, new { @type = "text", @name = "name", @id = "company", @class = "form-control", @placeholder = "Please enter your full name"})
+                                @Html.TextBoxFor(m => m.Company, new {@type = "text", @name = "name", @id = "company", @class = "form-control", @placeholder = "Please enter your full name"})
                             </div>
                         </div>
                     </div>
@@ -62,7 +56,7 @@
                     <div class="row sky-space-20">
                         <div class="col-md-7 col-md-offset-0">
                             <div>
-                                @Html.TextBoxFor(m => m.FromEmail, new { @type = "text", @name = "email", @id = "email", @class = "form-control", @placeholder = "Please enter your full name" })
+                                @Html.TextBoxFor(m => m.FromEmail, new {@type = "text", @name = "email", @id = "email", @class = "form-control", @placeholder = "Please enter your full name"})
                             </div>
                         </div>
                     </div>
@@ -71,7 +65,7 @@
                     <div class="row sky-space-20">
                         <div class="col-md-11 col-md-offset-0">
                             <div>
-                                @Html.TextAreaFor(m => m.Message, new { @class = "form-control", placeholder = "Please enter your message", rows = "8", @name = "message", id = "message" })
+                                @Html.TextAreaFor(m => m.Message, new {@class = "form-control", placeholder = "Please enter your message", rows = "8", @name = "message", id = "message"})
                             </div>
                         </div>
                     </div>
