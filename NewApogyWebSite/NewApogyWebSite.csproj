@@ -558,6 +558,21 @@
     <Content Include="Content\assets\images\oldWebsitePics\socialAggregation\Rocommendations.png" />
     <Content Include="Content\assets\images\oldWebsitePics\socialAggregation\Social-Learning-1.png" />
     <Content Include="Content\assets\images\owl.video.play.png" />
+    <Content Include="Content\assets\images\stephen\about_image.jpg" />
+    <Content Include="Content\assets\images\stephen\apogy-event-device-iphone.png" />
+    <Content Include="Content\assets\images\stephen\at_your_finger_tips.png" />
+    <Content Include="Content\assets\images\stephen\blog_image.jpg" />
+    <Content Include="Content\assets\images\stephen\contact_image.jpg" />
+    <Content Include="Content\assets\images\stephen\drive_alignment.png" />
+    <Content Include="Content\assets\images\stephen\implementation_image.jpg" />
+    <Content Include="Content\assets\images\stephen\one_place_to_go.png" />
+    <Content Include="Content\assets\images\stephen\security_iamge.jpg" />
+    <Content Include="Content\assets\images\stephen\services_image.jpg" />
+    <Content Include="Content\assets\images\stephen\single_tap_communication.png" />
+    <Content Include="Content\assets\images\stephen\stay_in_the_know.png" />
+    <Content Include="Content\assets\images\stephen\support_image.jpg" />
+    <Content Include="Content\assets\images\stephen\training_image.jpg" />
+    <Content Include="Content\assets\images\stephen\unifying_experience.png" />
     <Content Include="Content\assets\images\user-avatar2.jpg" />
     <Content Include="Content\assets\img\banners\adds.jpg" />
     <Content Include="Content\assets\img\bg\1.jpg" />
@@ -5396,6 +5411,8 @@
     <Content Include="Content\assets\video\fonts\glyphicons-halflings-regular.svg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
+    <Content Include="Content\toastr.css" />
+    <Content Include="Content\toastr.min.css" />
     <Content Include="favicon.ico">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
@@ -5691,8 +5708,12 @@
     <Content Include="Content\assets\video\fonts\Simple-Line-Icons.woff">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
+    <Content Include="Content\toastr.scss" />
+    <Content Include="Content\toastr.less" />
     <None Include="Properties\PublishProfiles\apogywebsite - Web Deploy.pubxml" />
     <Content Include="Scripts\jquery.matchHeight.js" />
+    <Content Include="Scripts\toastr.js" />
+    <Content Include="Scripts\toastr.min.js" />
     <Content Include="stylesheets\fonts\fontawesome-webfont.svg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>

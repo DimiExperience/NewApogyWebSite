@@ -1,42 +1,44 @@
 ﻿@using System.Web.Mvc.Html
 @using System.Web.Optimization
 @model NewApogyWebSite.Models.EmailFormModel
+<!--=== Breadcrumbs v3 ===-->
+<div class="breadcrumbs-v3 img-contact text-center divCenteredOuter">
+    <div class="divCenteredInner">
+        <div class="container">
+            <h1>Contact Us</h1>
+            <p>Let us know what you think</p>
+        </div><!--/end container-->
+    </div>
+</div>
+<!--=== End Breadcrumbs v3 ===-->
 <!--=== Content Part ===-->
-<div class="container content navbarPadding">
+<div class="container content">
     <div class="row">
         <div class="col-md-9">
-            <div class="headline"><h2>Contact Us</h2></div>
-            <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas feugiat. Et harum quidem rerum facilis est et expedita distinctio lorem ipsum dolor sit amet, consectetur adipiscing elit landitiis.</p><br />
-            <div class="headline-center">
-                <h2>Please select product(s):</h2>
-            </div>
-        
             <form method="post" id="sky-form3" class="sky-form contact-style">
             @using (Html.BeginForm())
             {
                 @Html.AntiForgeryToken()
-                <fieldset>
+                
+                <fieldset class="no-padding">
+                    
+                    
                     <section>
-
-                        <div class="row">
-                            <div class="col col-4">
-                                <label class="checkbox"><input type="checkbox" name="checkbox"><i></i>Apogy</label>
-                            </div>
-                            <div class="col col-4">
-                                <label class="checkbox"><input type="checkbox" name="checkbox"><i></i>Apogy Events</label>
-                            </div>
-                            <div class="col col-4">
-                                <label class="checkbox"><input type="checkbox" name="checkbox"><i></i>Podium</label>
+                        <div class="row sky-space-20">
+                            <div class="col-md-7 col-md-offset-0">
+                                <label class="select">
+                                    @Html.DropDownListFor(m => m.Products, new SelectList(new List<string>() {"Please select product", "Apogy", "Apogy Events", "Podium"}), new {@class = "select"})
+                                    <i></i>
+                                </label>
                             </div>
                         </div>
                     </section>
-                </fieldset>
-                <fieldset class="no-padding">
+
                     <label>Name <span class="color-red">*</span></label>
                     <div class="row sky-space-20">
                         <div class="col-md-7 col-md-offset-0">
                             <div>
-                                @Html.TextBoxFor(m => m.FromName, new { @placeholder="Please enter your full name", @type="text", @name="name", @id="name", @class="form-control" })
+                                @Html.TextBoxFor(m => m.FromName, new {@placeholder = "Please enter your full name", @type = "text", @name = "name", @id = "name", @class = "form-control"})
                             </div>
                         </div>
                     </div>
@@ -45,7 +47,7 @@
                     <div class="row sky-space-20">
                         <div class="col-md-7 col-md-offset-0">
                             <div>
-                                @Html.TextBoxFor(m => m.Company, new { @type = "text", @name = "name", @id = "company", @class = "form-control", @placeholder = "Please enter your full name"})
+                                @Html.TextBoxFor(m => m.Company, new {@type = "text", @name = "name", @id = "company", @class = "form-control", @placeholder = "Please enter your full name"})
                             </div>
                         </div>
                     </div>
@@ -54,7 +56,7 @@
                     <div class="row sky-space-20">
                         <div class="col-md-7 col-md-offset-0">
                             <div>
-                                @Html.TextBoxFor(m => m.FromEmail, new { @type = "text", @name = "email", @id = "email", @class = "form-control", @placeholder = "Please enter your full name" })
+                                @Html.TextBoxFor(m => m.FromEmail, new {@type = "text", @name = "email", @id = "email", @class = "form-control", @placeholder = "Please enter your full name"})
                             </div>
                         </div>
                     </div>
@@ -63,7 +65,7 @@
                     <div class="row sky-space-20">
                         <div class="col-md-11 col-md-offset-0">
                             <div>
-                                @Html.TextAreaFor(m => m.Message, new { @class = "form-control", placeholder = "Please enter your message", rows = "8", @name = "message", id = "message" })
+                                @Html.TextAreaFor(m => m.Message, new {@class = "form-control", placeholder = "Please enter your message", rows = "8", @name = "message", id = "message"})
                             </div>
                         </div>
                     </div>
@@ -106,4 +108,3 @@
     </div><!--/row-->
 </div><!--/container-->
 <!--=== End Content Part ===-->
-}

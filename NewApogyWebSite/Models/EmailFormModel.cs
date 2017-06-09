@@ -1,12 +1,11 @@
-﻿using System.ComponentModel.DataAnnotations;
+﻿using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
 
 namespace NewApogyWebSite.Models
 {
     public class EmailFormModel
     {
-        public bool Events { get; set; }
-        public bool Speaker { get; set; }
-        public bool Field { get; set; }
+        public string Products { get; set; }
 
         [Display(Name = "Company")]
         public string Company { get; set; }

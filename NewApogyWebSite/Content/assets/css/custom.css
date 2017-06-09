@@ -77,3 +77,8 @@
     font-weight: 200;
     font-family: "Open Sans", Arial, sans-serif;
 }
+
+.halfSize {
+    height: 50%;
+    width: 50%;
+}

@@ -30,12 +30,12 @@ namespace ApogyWebsiteFull.Controllers
         {
             if (ModelState.IsValid)
             {
-                var body = "<p>Email From: {0} ({1})</p><p>Company: {3}<br/><br/>Product(s):<br/>Commercial Enablement: {5}<br/>Events: {4}<br/>Speaker Programs: {6}</p><p>Message:</p><p>{2}</p>";
+                var body = "<p>Email From: {0} ({1})</p><p>Company: {3}<br/><br/>Selected Product: {4}</p><p>Message:</p><p>{2}</p>";
                 var message = new MailMessage();
                 message.To.Add(new MailAddress("dummyautomatic@gmail.com"));  // replace with valid value 
                 message.From = new MailAddress("no-reply@apogy.com");  // replace with valid value
                 message.Subject = $"Contact form from website";
-                message.Body = string.Format(body, model.FromName, model.FromEmail, model.Message, model.Company, model.Events, model.Field, model.Speaker);
+                message.Body = string.Format(body, model.FromName, model.FromEmail, model.Message, model.Company, model.Products);
                 message.IsBodyHtml = true;
 
                 using (var smtp = new SmtpClient())

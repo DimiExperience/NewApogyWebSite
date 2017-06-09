@@ -48,7 +48,7 @@
     </div>
     <!--=== End Colorfull Blocks ===-->
 </div><!--=== Commercial Enablement ===-->
-<div class="container content-md">
+<div class="container content-md no-padding-bottom">
     <div class="row">
         <div class="col-md-6 md-margin-bottom-40">
             <h2 class="title-v2">Commercial Enablement</h2>
@@ -58,17 +58,17 @@
             <a href="@Url.Action("Index", "Contact")" class="btn-u">Request a Demo</a>
         </div>
         <div class="col-md-6 overflow-h">
-            <img class="img-responsive wow animated fadeInUp" data-wow-duration="1.5s" src="~/Content/assets/images/lexa/doubleImageFieldEnablement.png" alt="">
+            <img class="img-responsive wow animated fadeInUp halfSize" data-wow-duration="1.5s" src="~/Content/assets/images/lexa/fieldEnablementBanner.png" alt="">
         </div>
     </div>
 </div>
 <!--=== End Commercial Enablement ===-->
 <!--=== Meetings and Events ===-->
 <div class="bg-color-light">
-<div class="container content-md">
+<div class="container content-md no-padding-bottom">
     <div class="row">
         <div class="col-md-6 overflow-h">
-            <img class="img-responsive wow animated fadeInUp" data-wow-duration="1.5s" src="~/Content/assets/images/lexa/doubleImageEvents.png" alt="">
+            <img class="img-responsive wow animated fadeInUp halfSize" data-wow-duration="1.5s" src="~/Content/assets/images/stephen/apogy-event-device-iphone.png" alt="">
         </div>
         <div class="col-md-6 md-margin-bottom-40">
             <h2 class="title-v2">Meetings and Events</h2>
@@ -82,7 +82,7 @@
 </div>
 <!--=== End Meetings and Events ===-->
 <!--=== Speaker Programs ===-->
-<div class="container content-md">
+<div class="container content-md no-padding-bottom">
     <div class="row">
         <div class="col-md-6 md-margin-bottom-40">
             <h2 class="title-v2">Speaker Programs</h2>
@@ -92,7 +92,7 @@
             <a href="@Url.Action("Index", "Contact")" class="btn-u">Request a Demo</a>
         </div>
         <div class="col-md-6 overflow-h">
-            <img class="img-responsive wow animated fadeInUp" data-wow-duration="1.5s" src="~/Content/assets/images/lexa/doubleImageSpeakerTraining.png" alt="">
+            <img class="img-responsive wow animated fadeInUp halfSize" data-wow-duration="1.5s" src="~/Content/assets/images/lexa/speakerTrainingBanner.png" alt="">
         </div>
     </div>
 </div>
@@ -157,6 +157,19 @@
                 });
             });
         </script>
+    }
+@if (ViewBag.Toastr != null)
+    {
+        if (ViewBag.Toastr == "success")
+        {
+        @:
+        <script>toastr.success("Email sent successfully");</script>
+        }
+        else
+        {
+        @:
+        <script>toastr.error("@ViewBag.Toastr", "Failed sending email");</script>
+        }
     }
     <script type="text/javascript">
         jQuery(document).ready(function() {

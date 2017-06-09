@@ -11,7 +11,11 @@ namespace NewApogyWebSite.Controllers
         public ActionResult Index()
         {
             ViewBag.Title = "Home Page";
-
+            if (TempData["toastr"] != null)
+            {
+                ViewBag.Toastr = TempData["toastr"];
+                TempData.Remove("toastr");
+            }
             return View();
         }
     }

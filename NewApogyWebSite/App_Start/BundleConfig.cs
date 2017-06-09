@@ -35,7 +35,8 @@ namespace NewApogyWebSite
                 "~/Content/assets/js/plugins/progress-bar.js",
                 "~/Scripts/jquery.matchHeight.js",
                 "~/Content/assets/plugins/owl-carousel/owl-carousel/owl.carousel.js",
-                "~/Content/assets/plugins/wow-animation/js/wow.min.js"));
+                "~/Content/assets/plugins/wow-animation/js/wow.min.js",
+                "~/Scripts/toastr.js"));
 
             bundles.Add(new StyleBundle("~/stylesheets/bundle").Include(
                 "~/Content/assets/plugins/bootstrap/css/bootstrap.css",
@@ -56,7 +57,8 @@ namespace NewApogyWebSite
                 "~/Content/assets/plugins/fancybox/source/jquery.fancybox.css",
                 "~/Content/assets/plugins/owl-carousel/owl-carousel/owl.carousel.css",
                 "~/Content/assets/plugins/owl-carousel/owl-carousel/owl.theme.css",
-                "~/Content/assets/plugins/parallax-slider/css/parallax-slider.css"));
+                "~/Content/assets/plugins/parallax-slider/css/parallax-slider.css",
+                "~/Content/toastr.css"));
 
             bundles.Add(new StyleBundle("~/stylesheets/bundle2").Include(
                 "~/Content/assets/css/blocks.css",

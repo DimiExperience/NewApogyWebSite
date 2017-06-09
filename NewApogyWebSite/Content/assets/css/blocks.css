@@ -437,6 +437,7 @@
   z-index: 1;
   padding: 100px 0;
   position: relative;
+    height: 400px;
 }
 
 .breadcrumbs-v3.breadcrumbs-lg {
@@ -464,18 +465,53 @@
     .breadcrumbs-v3.img-v4 {
         background: url(/Content/assets/images/lexa/fieldEnablementBanner.jpg) no-repeat;
         background-size: cover;
-        background-position: top;
+        background-position: center;
     }
 
     .breadcrumbs-v3.img-v5 {
         background: url(/Content/assets/images/lexa/speakerTrainingBanner.jpg) no-repeat;
         background-size: cover;
-        background-position: top;
+        background-position: center;
     }
-    .breadcrumbs-v3.img-v6 {
-        background: url(/Content/assets/img/breadcrumbs/img5.jpg) no-repeat;
+    .breadcrumbs-v3.img-solutions {
+        background: url(/Content/assets/images/stephen/services_image.jpg) no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+.breadcrumbs-v3.img-about {
+    background: url(/Content/assets/images/stephen/about_image.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+    .breadcrumbs-v3.img-contact {
+        background: url(/Content/assets/images/stephen/contact_image.jpg) no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+    .breadcrumbs-v3.img-security {
+        background: url(/Content/assets/images/stephen/security_iamge.jpg) no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+.breadcrumbs-v3.img-blog {
+    background: url(/Content/assets/images/stephen/blog_image.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+    .breadcrumbs-v3.img-training {
+        background: url(/Content/assets/images/stephen/training_image.jpg) no-repeat;
         background-size: cover;
         background-position: top;
+    }
+.breadcrumbs-v3.img-service {
+    background: url(/Content/assets/images/stephen/implementation_image.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+    .breadcrumbs-v3.img-support {
+        background: url(/Content/assets/images/stephen/support_image.jpg) no-repeat;
+        background-size: cover;
+        background-position: center;
     }
 .breadcrumbs-v3.img-v7 {
     background: url(/Content/assets/img/breadcrumbs/img4.jpg) no-repeat;
