@@ -558,6 +558,14 @@
     <Content Include="Content\assets\images\oldWebsitePics\socialAggregation\Rocommendations.png" />
     <Content Include="Content\assets\images\oldWebsitePics\socialAggregation\Social-Learning-1.png" />
     <Content Include="Content\assets\images\owl.video.play.png" />
+    <Content Include="Content\assets\images\stephen\about_image.jpg" />
+    <Content Include="Content\assets\images\stephen\blog_image.jpg" />
+    <Content Include="Content\assets\images\stephen\contact_image.jpg" />
+    <Content Include="Content\assets\images\stephen\implementation_image.jpg" />
+    <Content Include="Content\assets\images\stephen\security_iamge.jpg" />
+    <Content Include="Content\assets\images\stephen\services_image.jpg" />
+    <Content Include="Content\assets\images\stephen\support_image.jpg" />
+    <Content Include="Content\assets\images\stephen\training_image.jpg" />
     <Content Include="Content\assets\images\user-avatar2.jpg" />
     <Content Include="Content\assets\img\banners\adds.jpg" />
     <Content Include="Content\assets\img\bg\1.jpg" />
