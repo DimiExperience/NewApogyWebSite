@@ -465,13 +465,13 @@
     .breadcrumbs-v3.img-v4 {
         background: url(/Content/assets/images/lexa/fieldEnablementBanner.jpg) no-repeat;
         background-size: cover;
-        background-position: center;
+        background-position: top;
     }
 
     .breadcrumbs-v3.img-v5 {
         background: url(/Content/assets/images/lexa/speakerTrainingBanner.jpg) no-repeat;
         background-size: cover;
-        background-position: center;
+        background-position: top;
     }
     .breadcrumbs-v3.img-solutions {
         background: url(/Content/assets/images/stephen/services_image.jpg) no-repeat;
