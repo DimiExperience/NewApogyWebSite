@@ -68,7 +68,7 @@
 
                 <!-- Collect the nav links, forms, and other content for toggling -->
                 <div class="collapse navbar-collapse navbar-responsive-collapse">
-                    <div class="menu-container navbarPaddingRight">
+                    <div class="menu-container">
                         <ul class="nav navbar-nav">
                             <!-- Home -->
                             <li><a href="@Url.Action("Index", "Home")">Home</a></li>
@@ -110,6 +110,20 @@
                                 </ul>
                             </li>
                             <!-- End Products -->
+                            <!-- Support -->
+                            <li class="dropdown">
+                                <a href="javascript:void(0);" class="dropdown-toggle" data-toggle="dropdown">
+                                    Customer Support
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li><a href="@Url.Action("Service", "About")">Implementation</a></li>
+                                    <li><a href="@Url.Action("Support", "About")">Support</a></li>
+                                    <li><a href="@Url.Action("Training", "About")">Training</a></li>
+                                    <li><a href="@Url.Action("Platform", "About")">Platform</a></li>
+                                    <li><a href="@Url.Action("Security", "About")">Security</a></li>
+                                </ul>
+                            </li>
+                            <!-- End Support -->
                             <!-- About -->
                             <li class="dropdown">
                                 <a href="javascript:void(0);" class="dropdown-toggle" data-toggle="dropdown">
@@ -117,16 +131,6 @@
                                 </a>
                                 <ul class="dropdown-menu">
                                     <li><a href="@Url.Action("AboutUs", "About")">About Apogy</a></li>
-                                    <li class="dropdown-submenu">
-                                        <a href="javascript:void(0);">Customer Support</a>
-                                        <ul class="dropdown-menu">
-                                            <li><a href="@Url.Action("Service", "About")">Implementation</a></li>
-                                            <li><a href="@Url.Action("Support", "About")">Support</a></li>
-                                            <li><a href="@Url.Action("Training", "About")">Training</a></li>
-                                            <li><a href="@Url.Action("Platform", "About")">Platform</a></li>
-                                            <li><a href="@Url.Action("Security", "About")">Security</a></li>
-                                        </ul>
-                                    </li>
                                     <li><a href="@Url.Action("Index", "Blog")">Blog</a></li>
                                     <li><a href="@Url.Action("Index", "Contact")">Contact Us</a></li>
                                 </ul>
