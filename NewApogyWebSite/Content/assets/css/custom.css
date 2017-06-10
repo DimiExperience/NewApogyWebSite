@@ -31,19 +31,25 @@
     width: 100%
 }
 
-@media(min-width: 991px) and (min-height: 900px) {
+@media(max-width: 991px), (max-height: 750px) {
+    .interactive-slider-v2-md {
+        padding: 100px 0;
+    }
+}
+
+@media(min-width: 991px) and (min-height: 700px) {
     .vh100 {
         height: 100vh
     }
 }
 
-@media(min-width: 991px) and (min-height: 900px) {
+@media(min-width: 991px) and (min-height: 700px) {
     .vh70 {
         height: 70vh
     }
 }
 
-@media(min-width: 991px) and (min-height: 900px) {
+@media(min-width: 991px) and (min-height: 700px) {
     .vh40 {
         height: 40vh;
         padding-top: 15%;
@@ -51,13 +57,13 @@
     }
 }
 
-@media(min-width: 991px) and (min-height: 900px) {
+@media(min-width: 991px) and (min-height: 700px) {
     .vh30 {
         height: 30vh
     }
 }
 
-@media(min-width: 991px) and (min-height: 1000px) {
+@media(min-width: 991px) and (min-height: 700px) {
     .fullHeight {
         height: 100%;
     }
@@ -81,4 +87,8 @@
 .halfSize {
     height: 50%;
     width: 50%;
+}
+
+p, li, ul {
+    font-size: 120%;
 }

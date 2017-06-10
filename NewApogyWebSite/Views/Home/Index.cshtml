@@ -56,9 +56,33 @@
             <p>I suggest putting a little bit more text for all of the products on the home page because this is unused space. Or change the picture, maybe even find a better container div for this section??</p><br>
             <a href="@Url.Action("Apogy", "Products")" class="btn-u btn-brd btn-brd-hover btn-u-dark">Read More</a>
             <a href="@Url.Action("Index", "Contact")" class="btn-u">Request a Demo</a>
-        </div>
+            <hr/>
+            <h2 class="title-v2">
+                Mobile & Web App
+                </h2>
+                <ul>
+
+                    <li>100% Brand Configuration</li>
+                    <li>Integrated Online Meetings</li>
+                    <li>Calendaring and Scheduling</li>
+                    <li>Social Feeds for Community, Events, Groups</li>
+                    <li>Announcements</li>
+                    <li>Chat and Notifications</li>
+                    <li>Secure Content Library</li>
+                    <li>Corporate Event Management Support</li>
+                    <li>On-boarding Learning Plans</li>
+                    <li>Coaching and Mentoring</li>
+                    <li>Certifications, Testing and Evaluations</li>
+                    <li>Manager’s Dashboard</li>
+                    <li>Tasks and Reminders</li>
+                    <li>Open API for CRM, DMS, LMS Integrations</li>
+                    <li>Enterprise-ready platform</li>
+                    <li>Single Sign-On capable</li>
+                    <li>24/7 Support</li>
+                </ul>
+</div>
         <div class="col-md-6 overflow-h">
-            <img class="img-responsive wow animated fadeInUp halfSize" data-wow-duration="1.5s" src="~/Content/assets/images/lexa/fieldEnablementBanner.png" alt="">
+            <img class="img-responsive wow animated fadeInUp" data-wow-duration="1.5s" src="~/Content/assets/images/lexa/fieldEnablementBanner.png" alt="">
         </div>
     </div>
 </div>
@@ -68,7 +92,7 @@
 <div class="container content-md no-padding-bottom">
     <div class="row">
         <div class="col-md-6 overflow-h">
-            <img class="img-responsive wow animated fadeInUp halfSize" data-wow-duration="1.5s" src="~/Content/assets/images/stephen/apogy-event-device-iphone.png" alt="">
+            <img class="img-responsive wow animated fadeInUp" data-wow-duration="1.5s" src="~/Content/assets/images/stephen/apogy-event-device-iphone.png" alt="">
         </div>
         <div class="col-md-6 md-margin-bottom-40">
             <h2 class="title-v2">Meetings and Events</h2>
@@ -76,7 +100,34 @@
             <p>I suggest putting a little bit more text for all of the products on the home page because this is unused space. Or change the picture, maybe even find a better container div for this section??</p><br>
             <a href="@Url.Action("ApogyEvents", "Products")" class="btn-u btn-brd btn-brd-hover btn-u-dark">Read More</a>
             <a href="@Url.Action("Index", "Contact")" class="btn-u">Request a Demo</a>
-        </div>
+            <hr/>
+            <h2 class="title-v2">
+                Cloud-Based, Enterprise-Ready Platform
+                </h2>
+                <ul>
+
+                    <li>100% Brand and UI Configuration</li>
+                    <li>Badge/Lead Scanning</li>
+                    <li>Event Reporting and Analytics</li>
+                    <li>Audience Polling and Q&A</li>
+                    <li>Tracks and Electives</li>
+                    <li>Personalized Agendas</li>
+                    <li>Surveys and Questionnaires</li>
+                    <li>Training and Role-play Certifications</li>
+                    <li>Event and Session Check-In</li>
+                    <li>Speakers and Sessions</li>
+                    <li>Challenges and Leaderboards</li>
+                    <li>Social Feed and Notifications</li>
+                    <li>User and Team Chat</li>
+                    <li>Single Sign On</li>
+                    <li>Calendar Integration</li>
+                    <li>CRM, LMS, DMS Integrations</li>
+                    <li>Mobile & Web Apps</li>
+                    <li>One App for all your Events</li>
+                    <li>Multiple Language Support</li>
+                    <li>24/7 Support</li>
+                </ul>
+</div>
     </div>
 </div>
 </div>
@@ -90,9 +141,25 @@
             <p>I suggest putting a little bit more text for all of the products on the home page because this is unused space. Or change the picture, maybe even find a better container div for this section??</p><br>
             <a href="@Url.Action("Podium", "Products")" class="btn-u btn-brd btn-brd-hover btn-u-dark">Read More</a>
             <a href="@Url.Action("Index", "Contact")" class="btn-u">Request a Demo</a>
+            <hr/>
+            <h2 class="title-v2">
+                Cloud based enterprise ready platform
+            </h2>
+            <ul>
+                    
+                <li>Single sign on capable</li>
+                <li>Rule driven, compliant presentations</li>
+                <li>Store, manage and control content</li>
+                <li>Calendar integration</li>
+                <li>Speaker management</li>
+                <li>Easy 3rd party integrations</li>
+                <li>Multi-tier entitlements & approval workflow</li>
+                <li>Mobile & Web</li>
+                <li>Sunshine Act Reporting • 24/7 Support</li>
+            </ul>
         </div>
         <div class="col-md-6 overflow-h">
-            <img class="img-responsive wow animated fadeInUp halfSize" data-wow-duration="1.5s" src="~/Content/assets/images/lexa/speakerTrainingBanner.png" alt="">
+            <img class="img-responsive wow animated fadeInUp" data-wow-duration="1.5s" src="~/Content/assets/images/lexa/speakerTrainingBanner.png" alt="">
         </div>
     </div>
 </div>
@@ -146,13 +213,13 @@
 </div>
 <!-- End Callout v2 -->
 @section PageScripts {
-    @if (Request.Browser.ScreenPixelsHeight < 900)
+    @if (Request.Browser.ScreenPixelsHeight < 700)
     {
         <script>
             $(function() {
                 $('.row').each(function(i, elem) {
                     $(elem)
-                        .find('.col-md-4 .fullHeight') // Only children of this row
+                        .find('.divCenteredOuter .divCenteredInner') // Only children of this row
                         .matchHeight(); // Row detection gets confused so disable it
                 });
             });

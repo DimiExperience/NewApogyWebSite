@@ -74,24 +74,24 @@ namespace NewApogyWebSite.Controllers
 
             return View();
         }
-        public ActionResult SocialAggregation()
-        {
-            ViewBag.Title = "Social Aggregation";
+        //public ActionResult SocialAggregation()
+        //{
+        //    ViewBag.Title = "Social Aggregation";
 
-            return View();
-        }
+        //    return View();
+        //}
         public ActionResult MobileWorkforce()
         {
             ViewBag.Title = "Mobile Workforce";
 
             return View();
         }
-        public ActionResult GainingInsights()
-        {
-            ViewBag.Title = "Gaining Insights";
+        //public ActionResult GainingInsights()
+        //{
+        //    ViewBag.Title = "Gaining Insights";
 
-            return View();
-        }
+        //    return View();
+        //}
 
         public ActionResult EventEnablement()
         {
