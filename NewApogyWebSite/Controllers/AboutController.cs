@@ -14,12 +14,12 @@ namespace NewApogyWebSite.Controllers
 
             return View();
         }
-        //public ActionResult Platform()
-        //{
-        //    ViewBag.Title = "Platform";
+        public ActionResult Platform()
+        {
+            ViewBag.Title = "Platform";
 
-        //    return View();
-        //}
+            return View();
+        }
         public ActionResult Security()
         {
             ViewBag.Title = "Security";
