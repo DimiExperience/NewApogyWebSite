@@ -92,5 +92,12 @@ namespace NewApogyWebSite.Controllers
 
             return View();
         }
+
+        public ActionResult EventEnablement()
+        {
+            ViewBag.Title = "Event Enablement";
+
+            return View();
+        }
     }
 }
