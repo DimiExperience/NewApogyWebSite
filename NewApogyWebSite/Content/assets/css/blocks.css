@@ -3732,7 +3732,7 @@
 
 .interactive-slider-v2 p {
   color: #fff;
-  font-size: 24px;
+  font-size: 20px;
   font-weight: 200;
   font-family: "Open Sans", Arial, sans-serif;
 }
@@ -3747,7 +3747,7 @@
 
 @media (max-width: 768px) {
     .interactive-slider-v2 h2 {
-        font-size: 35px;
+        font-size: 30px;
         line-height: 50px;
         margin-bottom: 20px;
         font-weight: 700;

@@ -89,6 +89,6 @@
     width: 50%;
 }
 
-p, li, ul {
-    font-size: 120%;
+@media (min-width: 768px) {
+    p, li, ul { font-size: 120%; }
 }
