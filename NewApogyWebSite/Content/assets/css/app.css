@@ -207,11 +207,18 @@ h1 i, h2 i, h3 i, h4 i, h5 i, h6 i {
 	background: #72c02c;
 }
 
-.title-v1 p {
-	font-size: 17px;
-	font-weight: 200;
+
+@media (min-width: 768px) {
+    .title-v1 p {
+        font-size: 130%;
+        font-weight: 200;
+    }
 }
 
+.title-v1 p {
+    font-size: 17px;
+    font-weight: 200;
+}
 /*Heading Titles v2*/
 h2.title-v2 {
 	color: #555;
@@ -338,25 +345,32 @@ h3.title-v3-xs {
 	position: absolute;
 	background: #72c02c;
 }
-
-.headline-center p {
-	/*color: #999;*/
-	font-size: 14px;
-	/*padding: 0 150px;*/
+@media(min-width: 768px) {
+    .headline-center p {
+        /*color: #999;*/
+        font-size: 130%;
+        /*padding: 0 150px;*/
+    }
 }
 
-@media (max-width: 991px) {
-	.headline-center p {
-		padding: 0 50px;
-	}
+@media (max-width: 768px) {
+    .headline-center p {
+        padding: 0 50px;
+    }
 }
 
 .headline-center.headline-light h2 {
 	color: #fff;
 }
-
+@media(min-width: 768px) {
+    .headline-center.headline-light p {
+        color: #eee;
+        font-size: 130%
+    }
+}
 .headline-center.headline-light p {
-	color: #eee;
+    color: #eee;
+    font-size: 100%
 }
 
 /*Headline Center v2*/
@@ -400,13 +414,18 @@ h3.title-v3-xs {
 .headline-center-v2 span.bordered-icon:after {
 	right: 100%;
 }
-
-.headline-center-v2 p {
-	color: #555;
-	font-size: 14px;
-	padding: 0 70px;
+@media(min-width: 768px) {
+    .headline-center-v2 p {
+        color: #555;
+        font-size: 130%;
+        padding: 0 70px;
+    }
 }
-
+.headline-center-v2 p {
+    color: #555;
+    font-size: 100%;
+    padding: 0 70px;
+}
 .headline-center-v2.headline-center-v2-dark p {
 	color: #666;
 }
