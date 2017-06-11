@@ -99,3 +99,7 @@
         font-size: 110%;
     }
 }
+
+.normalP p {
+    font-size: 100% !important;
+}
