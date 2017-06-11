@@ -103,3 +103,7 @@
 .normalP p {
     font-size: 100% !important;
 }
+
+.fullWidth {
+    width: 100% !important;
+}
