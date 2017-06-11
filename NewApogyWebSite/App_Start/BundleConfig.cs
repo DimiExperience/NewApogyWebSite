@@ -35,7 +35,6 @@ namespace NewApogyWebSite
                 "~/Content/assets/js/plugins/progress-bar.js",
                 "~/Scripts/jquery.matchHeight.js",
                 "~/Content/assets/plugins/owl-carousel/owl-carousel/owl.carousel.js",
-                "~/Content/assets/plugins/wow-animation/js/wow.min.js",
                 "~/Scripts/toastr.js"));
 
             bundles.Add(new StyleBundle("~/stylesheets/bundle").Include(

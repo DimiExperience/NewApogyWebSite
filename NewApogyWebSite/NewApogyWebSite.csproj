@@ -5401,6 +5401,7 @@
     <Content Include="Content\assets\plugins\vector-map\tests\index.html" />
     <Content Include="Content\assets\plugins\vector-map\tests\markers.html" />
     <Content Include="Content\assets\plugins\vector-map\tests\reverse-projection.html" />
+    <Content Include="Content\assets\plugins\wow-animations\js\wow.js" />
     <Content Include="Content\assets\plugins\wow-animations\js\wow.min.js" />
     <Content Include="Content\assets\plugins\youtube-player\css\YTPlayer.css" />
     <Content Include="Content\assets\plugins\youtube-player\jquery.mb.YTPlayer-ini.js" />

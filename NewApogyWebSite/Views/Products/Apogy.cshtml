@@ -75,7 +75,7 @@
                 </div>
             </div>
             <div class="col-md-4">
-                <img class="img-responsive img-center" src="/Content/assets/images/lexa/fieldEnablementBanner.png" width="300" alt="">
+                <img class="img-responsive img-center wow animated fadeInRight" src="/Content/assets/images/lexa/fieldEnablementBanner.png" width="300" alt="">
             </div>
         </div><!--/end row-->
     </div><!--/end container-->
@@ -87,7 +87,7 @@
         <div class="row featured-blog">
             <div class="col-sm-4 sm-margin-bottom-50 equal-height-column">
                 <div class="featured-img">
-                    <img class="img-responsive margin-bottom-20" src="/Content/assets/images/stephen/one_place_to_go.png" alt="">
+                    <img class="img-responsive margin-bottom-20 wow animated rotateInDownLeft" src="/Content/assets/images/stephen/one_place_to_go.png" alt="">
                     <a href="@Url.Action("Index", "Contact")"><i class="rounded-x fa fa-download"></i></a>
                 </div>
                 <h2><a class="color-dark" href="@Url.Action("Index", "Contact")">One Place to Go</a></h2>
@@ -97,7 +97,7 @@
             </div>
             <div class="col-sm-4 sm-margin-bottom-50 equal-height-column">
                 <div class="featured-img">
-                    <img class="img-responsive margin-bottom-20" src="/Content/assets/images/stephen/single_tap_communication.png" alt="">
+                    <img class="img-responsive margin-bottom-20 wow animated fadeInDown" src="/Content/assets/images/stephen/single_tap_communication.png" alt="">
                     <a href="@Url.Action("Index", "Contact")"><i class="rounded-x fa fa-download"></i></a>
                 </div>
                 <h2><a class="color-dark" href="@Url.Action("Index", "Contact")">Single Tap Communication</a></h2>
@@ -107,7 +107,7 @@
             </div>
             <div class="col-sm-4 sm-margin-bottom-50 equal-height-column">
                 <div class="featured-img">
-                    <img class="img-responsive margin-bottom-20" src="/Content/assets/images/stephen/drive_alignment.png" alt="">
+                    <img class="img-responsive margin-bottom-20 wow animated rotateInDownRight" src="/Content/assets/images/stephen/drive_alignment.png" alt="">
                     <a href="@Url.Action("Index", "Contact")"><i class="rounded-x fa fa-download"></i></a>
                 </div>
                 <h2><a class="color-dark" href="@Url.Action("Index", "Contact")">Drive Alignment</a></h2>
@@ -128,7 +128,7 @@
             Fine-grained tracking, polling, and surveys all contribute to the extensive pool of collected data. Embedded courses, questionnaires and role-play certifications allow you to assess how impactful onboarding and events really are. A reporting dashboard helps to disseminate these insights through the enterprise.
         </p><br>
     </div>
-    <img class="img-responsive img-center" src="/Content/assets/images/lexa/measureTheImpact.png" alt="">
+    <img class="img-responsive img-center wow animated fadeInUp" src="/Content/assets/images/lexa/measureTheImpact.png" alt="">
 </div>
 <!--=== End Image Block ===-->
 <!--=== Service Block ===-->
@@ -228,5 +228,8 @@
                     .matchHeight(); // Row detection gets confused so disable it
             });
         });
+    </script>
+    <script>
+        new WOW().init();
     </script>
 }
