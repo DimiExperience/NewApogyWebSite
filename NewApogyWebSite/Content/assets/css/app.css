@@ -353,11 +353,6 @@ h3.title-v3-xs {
     }
 }
 
-@media (max-width: 768px) {
-    .headline-center p {
-        padding: 0 50px;
-    }
-}
 
 .headline-center.headline-light h2 {
 	color: #fff;
@@ -424,7 +419,7 @@ h3.title-v3-xs {
 .headline-center-v2 p {
     color: #555;
     font-size: 100%;
-    padding: 0 70px;
+    padding: 0;
 }
 .headline-center-v2.headline-center-v2-dark p {
 	color: #666;
