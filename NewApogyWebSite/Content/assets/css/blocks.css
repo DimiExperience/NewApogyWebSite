@@ -493,6 +493,11 @@
         background-size: cover;
         background-position: center;
     }
+.breadcrumbs-v3.img-platform {
+    background: url(/Content/assets/images/stephen/platform_image.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+}
 .breadcrumbs-v3.img-blog {
     background: url(/Content/assets/images/stephen/blog_image.jpg) no-repeat;
     background-size: cover;
