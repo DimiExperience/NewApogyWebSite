@@ -47,7 +47,7 @@
                     <div class="row sky-space-20">
                         <div class="col-md-7 col-md-offset-0">
                             <div>
-                                @Html.TextBoxFor(m => m.Company, new {@type = "text", @name = "name", @id = "company", @class = "form-control", @placeholder = "Please enter your full name"})
+                                @Html.TextBoxFor(m => m.Company, new {@type = "text", @name = "name", @id = "company", @class = "form-control", @placeholder = "Please enter your company"})
                             </div>
                         </div>
                     </div>
@@ -56,7 +56,7 @@
                     <div class="row sky-space-20">
                         <div class="col-md-7 col-md-offset-0">
                             <div>
-                                @Html.TextBoxFor(m => m.FromEmail, new {@type = "text", @name = "email", @id = "email", @class = "form-control", @placeholder = "Please enter your full name"})
+                                @Html.TextBoxFor(m => m.FromEmail, new {@type = "text", @name = "email", @id = "email", @class = "form-control", @placeholder = "Please enter your email"})
                             </div>
                         </div>
                     </div>
@@ -83,9 +83,9 @@
             <!-- Contacts -->
             <div class="headline"><h2>Contacts</h2></div>
             <ul class="list-unstyled who margin-bottom-30">
-                <li><a href="#"><i class="fa fa-home"></i>379 West Broadway, New York, NY</a></li>
-                <li><a href="#"><i class="fa fa-envelope"></i>info@apogy.com</a></li>
-                <li><a href="#"><i class="fa fa-globe"></i>http://www.apogy.com</a></li>
+                <li><a href="https://goo.gl/maps/bXHXw5brfYG2" target="_blank"><i class="fa fa-home"></i>379 West Broadway, New York, NY</a></li>
+                <li><a href="mailto:info@apogy.com?Subject=Enter%20subject%20here"><i class="fa fa-envelope"></i>info@apogy.com</a></li>
+                <li><a href="@Url.Action("Index", "Home")"><i class="fa fa-globe"></i>http://www.apogy.com</a></li>
             </ul>
 
             <!-- Business Hours -->
